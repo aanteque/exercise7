@@ -10,6 +10,19 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Shadows+Into+Light&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
 body {
   background-color: CB9DF0;
   }
@@ -50,6 +63,8 @@ p, ul, dl {
 </head>
 
 <body>
+<div class="row">
+  <div class="column">
 
 <h1>Spinach, Tofu and Sesame Stir-Fry </h1>
 <dl>
@@ -70,7 +85,10 @@ p, ul, dl {
   <li>2 tablespoons toasted sesame seeds</li>
   <li>1 teaspoon sesame oil</li>
 </ul>
-
+  
+</div>
+<div class="column">
+  
 <img src="recipe.jpg" alt="picture of food">
 
 <h2>Preparation</h2>
@@ -83,6 +101,9 @@ p, ul, dl {
 
 <h3>Tip</h3>
 <p>Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.</p>
+
+</div>
+</div>
 
 </body> 
 </html>
